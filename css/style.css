@@ -130,6 +130,10 @@ a:hover {
   font-size: 150px;
 }
 
+ul.download {
+  padding-left: 0px;
+}
+
 ul.download li {
   list-style: none;
   padding-left: 0px;
