@@ -115,8 +115,8 @@ a:hover {
   background-color: #5895ea;
 }
 
-#download .icon {
-  font-size: x-large;
+#download .icon .fa{
+  font-size: 150px;
 }
 
 .footer {
