@@ -122,6 +122,10 @@ a:hover {
   text-align: center;
 }
 
+#download .icon.col-sm-4 {
+  padding-top: 20px;
+}
+
 #download .icon .fa{
   font-size: 150px;
 }
