@@ -118,16 +118,24 @@ a:hover {
   padding: 20px;  
 }
 
-#download .icon {
+#download .icon,
+#about .icon,
+{
   text-align: center;
 }
 
+#about .icon.col-sm-4,
 #download .icon.col-sm-4 {
   padding-top: 20px;
 }
 
+#about .icon .fa,
 #download .icon .fa{
   font-size: 150px;
+}
+
+#about .icon .fa {
+  color: orange;
 }
 
 ul.download {
