@@ -126,6 +126,10 @@ a:hover {
   font-size: 150px;
 }
 
+ul.download li {
+  list-style: none;
+}
+
 .footer {
   background-color: #333;
   color: white;
@@ -136,4 +140,9 @@ a:hover {
   display: block;
   color: #aaa;
   padding: 2px;
+}
+
+.sha256:before {
+  content: 'sha256: ';
+  color: #5895ea;
 }
