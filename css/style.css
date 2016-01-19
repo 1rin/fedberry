@@ -114,6 +114,11 @@ a:hover {
   color: white;
   background-color: #5895ea;
 }
+
+#download .icon {
+  font-size: x-large;
+}
+
 .footer {
   background-color: #333;
   color: white;
