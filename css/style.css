@@ -114,6 +114,13 @@ a:hover {
   color: white;
   background-color: #5895ea;
 }
+#download {
+  padding: 20px;  
+}
+
+#download .icon {
+  text-align: center;
+}
 
 #download .icon .fa{
   font-size: 150px;
