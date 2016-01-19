@@ -131,3 +131,9 @@ a:hover {
   color: white;
   text-align: center;
 }
+
+.sha256 {
+  display: block;
+  color: #aaa;
+  padding: 2px;
+}
