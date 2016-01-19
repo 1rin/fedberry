@@ -145,6 +145,7 @@ ul.download li {
   color: #aaa;
   padding: 2px;
   font-size: smaller;
+  overflow-wrap: break-word;
 }
 
 .sha256:before {
