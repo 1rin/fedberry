@@ -106,6 +106,10 @@ a:hover {
   width: 250px;
 }
 
+#about {
+  color: white;
+  background-color: #5895ea;
+}
 .footer {
   background-color: #333;
   color: white;
