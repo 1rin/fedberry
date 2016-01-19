@@ -97,6 +97,17 @@ a:hover {
     color: #294172;
 }
 
+.promo {
+  padding: 10px;  
+}
+
 .promo img {
-  max-width: 50%;
+  padding: 10px;
+  width: 250px;
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
 }
