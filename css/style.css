@@ -114,6 +114,7 @@ a:hover {
   color: white;
   background-color: #5895ea;
 }
+#about,
 #download {
   padding: 20px;  
 }
@@ -135,7 +136,7 @@ a:hover {
 }
 
 #about .icon .fa {
-  color: orange;
+  color: white;
 }
 
 ul.download {
