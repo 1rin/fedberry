@@ -140,9 +140,12 @@ ul.download li {
   display: block;
   color: #aaa;
   padding: 2px;
+  font-size: smaller;
 }
 
 .sha256:before {
   content: 'sha256: ';
   color: #5895ea;
+  font-size: smaller;
+  padding-left: 10px;
 }
