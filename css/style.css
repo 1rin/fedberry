@@ -132,7 +132,8 @@ a:hover {
 
 #about .icon .fa,
 #download .icon .fa{
-  font-size: 150px;
+  font-size: 20px;
+  padding: 20px;
 }
 
 #about .icon .fa {
