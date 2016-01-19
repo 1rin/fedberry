@@ -96,3 +96,7 @@ a:hover {
 .navbar-default .navbar-link:hover {
     color: #294172;
 }
+
+.promo img {
+  max-width: 50%;
+}
