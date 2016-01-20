@@ -209,6 +209,10 @@ ul.download li .fa {
 }
 
 .size {
-  color: #aaa;
+  color: #333;
   font-size: 11px;
+  display: block;
+  padding: 2px 3px;
+  margin: 0px 2px;
+  background-color: #aaa;
 }
