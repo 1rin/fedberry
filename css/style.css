@@ -122,8 +122,9 @@ a:hover {
 }
 
 #about a.btn-outline-inverse:hover, .btn-outline-inverse:focus {
-    background-color: #fff;
-    color: #5895ea;
+  background-color: #fff;
+  color: #5895ea;
+  text-decoration: none;
 }
 
 #about {
