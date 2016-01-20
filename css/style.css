@@ -189,6 +189,7 @@ ul.download li .fa {
 
 .footer a {
   color: white;
+  text-decoration: underline;
 }
 
 .sha256 {
