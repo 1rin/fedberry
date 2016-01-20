@@ -112,6 +112,18 @@ a:hover {
 
 #about a{
   color: white;
+  text-decoration: underline;
+}
+
+#about a.btn-outline-inverse {
+  color: #fff;
+  background-color: transparent;
+  border-color: white;
+}
+
+#about a.btn-outline-inverse:hover, .btn-outline-inverse:focus {
+    background-color: #fff;
+    color: #5895ea;
 }
 
 #about {
@@ -163,7 +175,18 @@ ul.download li .fa {
   background-color: #333;
   color: white;
   text-align: center;
+  padding: 20px;
 }
+
+.footer ul {
+  padding-left: 0px;
+}
+
+.footer li {
+  list-style: none;
+  padding-left: 0px;
+}
+
 .footer a {
   color: white;
 }
@@ -181,15 +204,4 @@ ul.download li .fa {
   color: #5895ea;
   font-size: smaller;
   padding-left: 0px;
-}
-
-.btn-outline-inverse {
-  color: #fff;
-  background-color: transparent;
-  border-color: white;
-}
-
-.btn-outline-inverse:hover, .btn-outline-inverse:focus {
-    background-color: #fff;
-    color: #5895ea;
 }
