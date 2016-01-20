@@ -175,3 +175,14 @@ ul.download li .fa {
   font-size: smaller;
   padding-left: 0px;
 }
+
+.btn-outline-inverse {
+  color: #fff;
+  background-color: transparent;
+  border-color: white;
+}
+
+.btn-outline-inverse:hover, .btn-outline-inverse:focus {
+    background-color: #fff;
+    color: #5895ea;
+}
