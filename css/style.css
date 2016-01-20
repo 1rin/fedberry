@@ -207,3 +207,8 @@ ul.download li .fa {
   font-size: smaller;
   padding-left: 0px;
 }
+
+.size {
+  color: #aaa;
+  font-size: 11px;
+}
