@@ -173,5 +173,5 @@ ul.download li .fa {
   content: 'sha256: ';
   color: #5895ea;
   font-size: smaller;
-  padding-left: 10px;
+  padding-left: 0px;
 }
