@@ -110,6 +110,10 @@ a:hover {
   width: 250px;
 }
 
+#about a{
+  color: white;
+}
+
 #about {
   color: white;
   background-color: #5895ea;
@@ -159,6 +163,9 @@ ul.download li .fa {
   background-color: #333;
   color: white;
   text-align: center;
+}
+.footer a {
+  color: white;
 }
 
 .sha256 {
