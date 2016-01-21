@@ -122,7 +122,7 @@ a:hover {
   text-decoration: none;
 }
 
-#about a.btn-outline-inverse:hover, .btn-outline-inverse:focus {
+#about a.btn-outline-inverse:hover, #about .btn-outline-inverse:focus {
   background-color: #fff;
   color: #5895ea;
   text-decoration: none;
@@ -157,6 +157,20 @@ a:hover {
 #about .icon .fa {
   color: white;
 }
+
+#download a.btn-outline-inverse {
+  color: #5895ea;
+  background-color: transparent;
+  border-color: #5895ea;
+  text-decoration: none;
+}
+
+#download a.btn-outline-inverse:hover, #download .btn-outline-inverse:focus {
+  background-color: #5895ea;
+  color: #fff;
+  text-decoration: none;
+}
+
 
 ul.download {
   padding-left: 0px;
