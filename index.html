@@ -78,6 +78,28 @@
           </div>
         </div>
       </div>
+      <div id="more" class="col-xs-12">
+        <div class="container">
+          <div class="icon col-xs-12 col-sm-4">
+              <i class="fa fa-life-ring"></i>  
+          </div>
+          <div class="text col-xs-12 col-sm-8">
+            <p>We provide 3 releases right now:<p>
+            <ul class="download">
+              <li>
+                <h3>Mini release</h3>
+                <p>This release differs significantly from default Fedora settings used in their arm releases. It is a small 'bare bones' remix with some optimizations specifically tailored towards Rapsberry Pi 2 (RPi2) usage. Its main goals are to have a small footprint, fast boot times and to reduce the number of writes to the SD card (within reason).</p>
+                <p>The root partition is NOT automatically re-sized at boot due to boot time and image size considerations. The initial-setup utility is not used for this release.</p>
+              </li>
+              <li>
+                <h3>Minimal and XFCE release</h3>
+                <p>Both these releases are close to 'stock' arm releases from Fedora. Where possible, they endeavour to stick to default Fedora release settings.</p>
+                <p>The root partition is automatically re-sized when the OS is first booted. After re-sizing, it will automatically reboot. After rebooting the system will launch the 'initial-setup' utility. For graphical images this will occur on the display, for minimal images this will occur on the serial console. Failure to complete the initial-setup will prevent logging into the system.</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
       <div id="download" class="col-xs-12">
         <div class="container">
           <div class="icon col-xs-12 col-sm-4">
