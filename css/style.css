@@ -119,6 +119,7 @@ a:hover {
   color: #fff;
   background-color: transparent;
   border-color: white;
+  text-decoration: none;
 }
 
 #about a.btn-outline-inverse:hover, .btn-outline-inverse:focus {
