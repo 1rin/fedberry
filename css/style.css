@@ -258,3 +258,8 @@ a.donate-link {
   background-color: orange;
   border-color: orange;
 }
+a.donate-link:hover {
+  color:orange;
+  background-color: white;
+  border-color: white;
+}
