@@ -143,8 +143,10 @@ a:hover {
 }
 
 #news {
-  background-color: #efefef;
+  background-color: rgb(41, 47, 51);
+  color: white;
 }
+
 #about,
 #news,
 #download {
