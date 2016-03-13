@@ -141,23 +141,31 @@ a:hover {
   color: white;
   background-color: #5895ea;
 }
+
+#news {
+  background-color: #efefef;
+}
 #about,
+#news,
 #download {
   padding: 20px;  
 }
 
 #download .icon,
+#news .icon,
 #about .icon
 {
   text-align: center;
 }
 
 #about .icon.col-sm-4,
+#news .icon.col-sm-4,
 #download .icon.col-sm-4 {
   padding-top: 20px;
 }
 
 #about .icon .fa,
+#news .icon .fa,
 #download .icon .fa{
   font-size: 50px;
   padding: 20px;
