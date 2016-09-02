@@ -95,15 +95,21 @@
           <div class="text col-xs-12 col-sm-8">
             <ul class="download">
               <li>
-                <h3>Minimal and XFCE release</h3>
-                <p>Both these releases are close to 'stock' arm releases from Fedora. Where possible, they endeavour to stick to default Fedora release settings.</p>
-                <p>The root partition is automatically re-sized when the OS is first booted. After re-sizing, it will automatically reboot. After rebooting the system will launch the 'initial-setup' utility. For graphical images this will occur on the display, for minimal images this will occur on the serial console. Failure to complete the initial-setup will prevent logging into the system.</p>
+                <h3>Minimal and XFCE releases</h3>
+                <p>Both these remixes are close to 'stock' arm releases from Fedora*. Where possible, they endeavor to stick to default Fedora release settings. Major differences are:</p>
+                <p>&bull; The use of swap files in lieu of swap partitions.</p>
+                <p>&bull; tmpfs is enabled but size limited to 100M.</p>
+                <p>&bull; The root partition is automatically expanded on first boot.</p>
+                <p>&bull; To facilitate optional <a href="https://github.com/fedberry/fedberry-headless/blob/master/README.md">headless</a> booting, a default root password is set in the 'minimal' release.</p>
+                <p>Please refer to the <a href="https://github.com/fedberry/fedberry/blob/master/README.md"><b>README</b></a> for further information on these releases.</p>
               </li>
                 <li>
                 <h3>Barebone release</h3>
-                <p>This release is for ADVANCED users only, as it differs significantly from standard default Fedora releases. As the name suggests, it is a small stripped 'bare bones' remix with some optimizations specifically tailored towards RPi2/3 usage. Its main goals are to have a small footprint, fast boot times and to reduce the number of writes to the SD card (within reason).</p>
-                <p>So you are aware of its limitations, please ensure you read the <a href="https://github.com/fedberry/fedberry/blob/master/RELEASE-NOTES.md"><b>release notes</b></a> before using this release.</p>
-                <p>The root partition is NOT automatically re-sized at boot and the initial-setup utility is not used for this release.</p>
+                <p>This release is for <b>ADVANCED</b> users only, as it differs significantly from standard default Fedora releases. As the name suggests, it is a small stripped 'bare bones' remix with some optimizations specifically tailored towards RPi2/3 usage. Its main goals are to have:
+                <p>&bull; A small footprint</p>
+                <p>&bull; Fast boot times</p>
+                <p>&bull; Reduced number of writes to the SD card</p>
+                <p>So you are aware of its limitations, please ensure you read the <a href="https://github.com/fedberry/fedberry/blob/master/RELEASE-NOTES.md"><b>RELEASE NOTES</b></a> before using this release.</p>
               </li>
             </ul>
             <p></p>
