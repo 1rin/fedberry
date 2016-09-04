@@ -47,7 +47,15 @@ a:hover {
     color: #ffffff;
 }
 
+.navbar-default .navbar-text a {
+    color: #ffffff;
+}
+
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #294172;
+    background-color: #ffffff;
+}
+.navbar-default .navbar-text a:hover {
     color: #294172;
     background-color: #ffffff;
 }
