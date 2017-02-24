@@ -101,18 +101,21 @@
           <div class="text col-xs-12 col-sm-8">
             <ul class="download">
               <li>
-                <h3>Minimal and XFCE releases</h3>
-                <p>Both these remixes are close to 'stock' arm releases from Fedora*. Where possible, they endeavor to stick to default Fedora release settings. Major differences are:</p>
+                <h3>Minimal, XFCE and LXQt Remixes</h3>
+                <p>The major differences between Fedora arm releases as compared to Fedbery releases are:</p>
+                <p>&bull; The use of our own custom <a href="https://github.com/fedberry/kernel"><b>kernels</b></a> (using the Raspberry Pi foundation's bcm2709 kernel port).</p>
+                <p>&bull; The use of Raspberry Pi foundation's own bootloader (ie. we don't use uboot).</p>
                 <p>&bull; The use of swap files in lieu of swap partitions.</p>
                 <p>&bull; tmpfs is enabled but size limited to 100M.</p>
                 <p>&bull; The root partition is automatically expanded on first boot.</p>
+                <p>&bull; Various RPi specific applications / software are included by default.</p>
                 <p>&bull; To facilitate optional <a href="https://github.com/fedberry/fedberry-headless/blob/master/README.md">headless</a> booting, a default root password is set in the 'minimal' release.</p>
                 <p>Please refer to the <a href="https://github.com/fedberry/fedberry/blob/master/README.md"><b>README</b></a> for further information on these releases.</p>
                 <br>
               </li>
                 <li>
                 <h3>Barebone release</h3>
-                <p>This release is for <b>ADVANCED</b> users only, as it differs significantly from standard default Fedora releases. As the name suggests, it is a small stripped 'bare bones' remix with some optimizations specifically tailored towards RPi2/3 usage. Its main goals are to have:
+                <p>This release is for <b>ADVANCED</b> users only, as it differs significantly from standard FedBerry releases. As the name suggests, it is a small stripped 'bare bones' remix with some optimizations specifically tailored towards RPi2/3 usage. Its main goals are to have:
                 <p>&bull; A small footprint</p>
                 <p>&bull; Fast boot times</p>
                 <p>&bull; Reduced number of writes to the SD card</p>
